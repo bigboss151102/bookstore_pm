@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* tạo kiểu thành dạng table với các mục category */
+#headermenu{
+	display: table;
+}
+/* tạo kiểu giữa các category */
+#headermenu div {
+	display: table-cell; 
+	padding-right: 20px
+}
+
+
+/* tạo kiểu cho các link*/
+a:link {
+	color: cornflowerBlue;
+	text-decoration: none;
+}
+
+/* visited dùng để chọn các liên kết mà đường dẫn của nó đã được trình duyệt viếng thăm.*/
+a:visited {
+	color: indigo;
+}
+
+/*Bộ chọn :hover dùng để chọn phần tử đang được người dùng dí chuột vào.*/
+a:hover {
+	color: blue;
+	text-decoration: underline
+}
+
+
+/*Bộ chọn :active dùng để chọn phần tử đang được người dùng nhấp chuột vào.*/
+a:active {
+	color:red;
+}
+/*Xét style cho href*/
+#headermenu a:link {
+	font-size: larger
+}
+
+/*Xét dạng chữ cho heading*/
+.pageheading{
+	color:darkBlue;
+	
+}
+/*Xét style cho bảng*/
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+/*th: table heading, td: table data*/
+th, td {
+	padding: 8px;
+}
+
+th {
+	background: darkblue;
+	color: cornsilk;
+	font-size: larger;
+}
+
+table.form{
+	border: 0;
+	padding: 4px;
+	width: 60%;
+}
+
+button {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+button:hover{
+	background-color: white;
+	color: red;
+}
+
+button[type=submit] {
+	font-weight: bold;
+}
+
+input {
+	border:2px solid;
+	border-radius: 5px;
+	border-color: green;
+	height: 20px;
+}
+
+.message{
+	font-style: italic;
+	color: red;
+}
+
+.error{
+	color: red;
+	font-style: italic;
+	margin: 5px;
+}
+
+/* CSS for button font awesome */
+.fa-solid.fa-trash {
+	color: white;
+	background: red;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

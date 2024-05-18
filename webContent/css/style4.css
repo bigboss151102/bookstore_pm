@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.desc {
+		padding: 12px;
+		border: 1px solid grey;
+		border-radius: 10px;
+}
+
+img.book-large {
+	width: 240px; height: 300px;
+}
+
+div.book_group {
+	width: 80%; 
+	margin: 0 auto;
+}
